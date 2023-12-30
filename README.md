@@ -16,7 +16,6 @@ Get input from user and print L and U matrix by 'print'
 Define a package as "from scipy.linalg import lu_factor, lu_solve" and create the variable as 'X' include the package in that variable.
 ## Step 4:
 print the variable 'X'
-
 ## Program:
 (i) To find the L and U matrix
 ```
@@ -40,7 +39,6 @@ Program to solve a matrix using LU decomposition.
 Developed by: Priyadharshini.P 
 RegisterNumber: 23013604
 '''
-
 # To print X matrix (solution to the equations)
 import numpy as np
 from scipy.linalg import lu_factor,lu_solve
@@ -49,8 +47,9 @@ b=np.array(eval(input()))
 lu,piv=lu_factor(A)
 x=lu_solve((lu,piv),b)
 print(x)
-
 ```
+
+
 
 ## Output:
 ![image](https://github.com/priyadharshini210/LU-Decomposition/assets/148514638/21160b13-39d6-4e8e-ba88-4d48c42a3613)
